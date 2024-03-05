@@ -12,7 +12,7 @@ class CustomersView
   end
 
   def ask_for_id
-    puts "Which customer you want to edit (number)"
+    puts "Which customer (number)?"
     gets.chomp.to_i
   end
 end
